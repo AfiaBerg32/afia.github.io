@@ -1,0 +1,189 @@
+*{
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+ /* I commented the body */
+body{
+    background-color: whitesmoke;
+    /* modified the background-color */
+}
+
+
+ /* added a container styling */
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.header{
+    background-color:#b8001f;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+   
+}
+
+
+.main-menu li{
+    display: flex;
+   text-decoration: none;
+   gap: 50px;
+   justify-content: space-between;
+   float: left;
+   padding: 12px 15px;
+   vertical-align: top;
+  
+  
+}
+h1{
+  font-family: "Space Mono", monospace;
+  justify-content: left;
+align-items: normal;
+float: none;
+font-variant: normal;
+font-size: 40px;
+}
+ 
+li{
+  text-decoration: none;
+}
+
+
+.left-box, .or, .right-box{
+  margin: 0;
+  padding: 0;
+}
+
+/* left box modified */
+.left-box {
+  height: 500px;
+  width: 400px;
+  margin-top: 80px;
+  background: white;
+  align-items: center;
+  justify-content: space-between;
+  float: left;
+
+  }
+  .or{
+    border-radius: 40px;
+    color: black;
+    width:10%;
+  }
+  .signinwith{
+    font-family: "Space Mono", monospace;
+    justify-content: left;
+    font-size: 25px;
+    align-items: normal;
+    float: inherit;
+    font-variant: normal;
+    margin-top: 10px;
+  }
+
+/* right box modified */
+  .right-box{
+  height: 500px;
+  width: 400px;
+  margin-top: 80px;
+  padding-top: 2rem;
+  color: white;
+  background-image: url(images\ \(2\).jpeg);
+  background-color: rgba(0,0,0,0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center center;
+  align-items: center;
+  justify-content: space-between;
+  float: left;
+  }
+  
+  
+/* .login-box .form{
+  padding: 30px;
+  margin: top 100px;
+} */
+.login-box .form .title{
+  font-size: 27px;
+  font-weight: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  
+}
+
+input[type=text] , input[type=password]  {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  margin-left: 5px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #E4E0E1;
+}
+
+button[class=social-facebook],button[class=social-twitter],button[class=social-google]{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  margin-left: 5px;
+  box-sizing: border-box;
+  border: none;
+
+
+}
+button[class=signup-button]{
+  width: 50%;
+  max-width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0px;
+  margin-left: 5px;
+  box-sizing: border-box;
+  border: none;
+}
+
+
+.form .title::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 100px;
+  height: 10px;
+  width:40px;
+  background-color: #E4E0E1;
+  border-radius: 25px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.social-facebook{
+  background-color: #024caa;
+  border: none;
+}
+.social-twitter{
+  background-color: #287ff1;
+  border: none;
+}
+
+.social-google{
+  background-color:#f95454;
+  border: none;
+}
+
+.signup-button{
+  background-color:#f95454;
+  border: none;
+
+}
